@@ -1,0 +1,58 @@
+create a new project in unity 
+
+AIM: creating AR content with vuforia
+
+Step 1: create a new project in unity and select 3D and name it AR using vuforia.
+
+Step 2: Go to the link "developer.vuforia.com" & Register, Enter the details asked, & click on create a account.
+        Verify your details by going to the link on email. Login to vuforia account.
+
+Step 3: Go to downloads->Sample.
+	   Click on unity store.
+        A new tab opens of unity assets store.
+
+Step 4: Go to "vuforia engine STK" --> "Add to my Assets" --> "Open in Unity".
+
+Step 5: A packet manager appears
+        Click on import
+        
+Step 6: Now go to assets store and select "vuforia Core Sample" --> "Add to my assets" --> "open in unity" --> "import"
+
+Step 7: To verify whether vuforia is imported successfully, Right click in hierarchy panel in the unity editor.If you see vuforia engine in the dropdown list it means that vuforia is importe successfully.
+
+Step 8: Delete the "main camera" from the scene. The Right Click on hierarchy Panel --> Vuforia Engine --> AR Camera.
+
+Step 9: In the Project window go to --> assets/Resourses and Double Click on "Vuforia configuration.asset",To view its property in the inspector panel.
+
+Step 10: You will add License key in the next step 
+         Click on add license on the inspector panel.
+         Vuforia.com opens
+
+Step 11: Click on License manager get basics.
+
+Step 12: Keep the License name same as the Project name(AR_Vuforia),Check the terms and condition
+
+Step 13: Click on the license and copy the license key and paste it in the app license key.
+
+Step 14: Go to the vuforia manager --> target manager add database,write your database name and device
+
+Step 15: After creating the database,open the database(vuforia) and click on add Target.
+
+Step 16: Click on image --> Browse and select an image --> width:0.5 --> Name: Stones_image --> Add.
+
+Step 17: Repeat the "Step 15" until you get 4-5 star ratings
+
+Step 18: 	Click on download database --> unity editor --> Download. 
+         Once it download you can get a file called Hellovuforia.unity package,Double click on this file to open in unity,now you will get a prompt,click on import
+
+Step 19: Go to Assets/Resources and double click on vuforia configuration.assets --> inspector panel--> Databases.
+         there you would see hellovuforia listed.This means that you have successfully imported database in your unity project, Right Click on hierarchy Panel --> vuforia engine --> image Target ,Select image target to view this property in the inspector panel. 
+
+Step 20: Go to image target behaviour script
+
+Step 21: Right Click on image target --> 3D object --> Cube,
+         Scale X:0.2 Y:0.2 Z:0.2
+
+Step 22: Move you box slightly up to your surface to appear leviating
+
+Step 23: Click on Play Button to run the scene on the top center using your web cam.
